@@ -16,7 +16,7 @@ The purpose of studying the labor market of these specific populations is due to
 
  ## Code description 
  
-This code aims to process, clean, and analyze GEIH labor market information for vulnerable specific populations in October 2022. Specifically, this code is divided into two blocks, cleaning, and analysis. To run the code, please use the **master.do file**. If this is the **FIRST TIME running the code**, please change the path to where the **master.do** is saved and leave the preset settings (all locals equal to 1). STATA 17 is required as new functionalities of this version are used. The code should take around 5-6 minutes to run. 
+This code aims to process, clean, and analyze GEIH labor market information for vulnerable specific populations in October 2022. Specifically, this code is divided into two blocks, cleaning, and analysis. To run the code, please use the **master.do file**. If this is the **FIRST TIME running the code**, please change the path to where the **master.do** is saved, change the user global, and leave the preset settings (all locals equal to 1). STATA 17 is required as new functionalities of this version are used. The code should take around 5-6 minutes to run. 
 
 ### Description of the code 
 
