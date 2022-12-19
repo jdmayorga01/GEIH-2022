@@ -16,23 +16,11 @@ The purpose of studying the labor market of these specific populations is due to
 
  ## Code description 
  
- This code aims to process, clean, and analyze GEIH labor market information for vulnerable specific populations in October 2022. Specifically, this code is divided into two blocks, cleaning, and analysis. To run the code, please use the **master.do file**. If this is the **FIRST TIME running the code**, please change the path to where the **master.do** is saved and leave the preset settings (all locals equal to 1). STATA 17 is required as new functionalities of this version are used. The code should take around 5-6 minutes to run. 
- 
-### Folder organization
-The main folders that are preset in the .zip would be *"Master data, code, and documentation"*. The other folder are generated in the master.do file. 
-
-1. Master data: GEIH and shape data of Colombia.
-2. Modified data: Intermediate results of the GEIH processing.
-3. Clean data: Final data set used in the analysis (codesample_JDM.dta).
-4. Code: This folder should include 5 .do elements (analysis, clean_main, clean_maps, merge and packages). The explanation of each .do can be found below.
-5. Outputs: Main tables and graphs created for the analysis.
-6. Documentation: GEIH documentation where the description of variables can be found.
- 
-
+This code aims to process, clean, and analyze GEIH labor market information for vulnerable specific populations in October 2022. Specifically, this code is divided into two blocks, cleaning, and analysis. To run the code, please use the **master.do file**. If this is the **FIRST TIME running the code**, please change the path to where the **master.do** is saved and leave the preset settings (all locals equal to 1). STATA 17 is required as new functionalities of this version are used. The code should take around 5-6 minutes to run. 
 
 ### Description of the code 
 
-1. **Cleaning:** This section runs the cleaning and processing process of GEIH, which implies merging and cleaning the data. Also, in this section, the main variables are generated and properly label to create a clean data set (codesample_JDM.dta). This process can be found in the **.do files merge, and clean_main**. There is an additional .do that is named **clean_maps** which contains the cleaning process of the shape data for some graph outputs that will be run in the analysis section.
+1. **Cleaning:** This section runs the cleaning and processing of GEIH, which implies merging and cleaning the data. Also, in this section, the main variables are generated and properly label to create a clean data set (codesample_JDM.dta). This process can be found in the **.do files merge, and clean_main**. There is an additional .do that is named **clean_maps** which contains the cleaning process of the shape data for some graph outputs that will be run in the analysis section.
 
 
 3. **Analysis:** In this section, I present the main analysis of the project. This is done by analyzing three kind of outputs, which are the following: 
@@ -41,8 +29,11 @@ The main folders that are preset in the .zip would be *"Master data, code, and d
  
  
  
- - **Spatial graphs:** This subsection generated spatial maps of the location of vulnerable groups and their employment rate by department level. Specifically, I used spmap package and shp data information ([link])(https://sites.google.com/site/seriescol/shapes) at departamental level. The output of this analysis is a graph that presents the proportion/percentage of disabled/migrants and their employment rate by department. 
- - **Regression analysis:**
+ - **Spatial graphs:** This subsection generated spatial maps of the location of vulnerable groups and their employment rate by department level. Specifically, I used spmap package and shp data information [(link)](https://sites.google.com/site/seriescol/shapes) at departamental level. The output of this analysis is a graph that presents the proportion/percentage of disabled/migrants and their employment rate by department. 
  
+ - **Regression analysis:** This section runs a simple OLS regression analysis. Please note that these regressions are not meant to be causal analyses. Concretely, I run the following regression: 
 
+$income(ln)_{di} =  \alpha+\beta_1 disable + \beta_1 migrant + X + \epsilon$
+
+Where $\beta_1$ and $\beta_2$ are dummies that identify migrants and disable persons and $X$ is a set of Social characteristics and labor market controls.
 ### 
