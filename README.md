@@ -17,9 +17,8 @@ GEIH produces information at the national, urban-rural level and for the thirtee
 
 The purpose of studying the labor market of these specific populations is due to their vulnerability and the barriers they have to access formal and quality employment. In relation to the migrants, in the last few years, Colombia has hosted around 1.8 million migrants from Venezuela [(UNHCR, 2020)](https://www.unhcr.org/globaltrends#:~:text=During%202020%2C%20several%20crises,within%20and%20beyond%20countries'%20borders.). The magnitude of the migration influx has exerted a burden on the labor market and has created vulnerabilities in the migrant population (discrimination, xenophobia, etc.). On the other hand, disabled people in Colombia have different inclusion problems, specifically in terms of the labor market and education. Around 30% of the persons with a disability are permanently unable to work and if they work, they have lower chances of getting a job. Moreover, there is a significant educational gap between the population with and without a disabilities; an averge 10 p.p difference in all levels of education (primary, secondary and tertiary) [(INCI, 2022)](https://www.inci.gov.co/blog/la-discapacidad-en-colombia-segun-estadisticas-del-dane). 
 
-## Results
 
-The set of results are divided in two main outputs, descriptive tables and graphs that describe the labor market outcomes of vulnerable populations in Colombia. 
+
 
 
 
@@ -46,6 +45,26 @@ $income(ln)_{di} =  \alpha+\beta_1 disable + \beta_1 migrant + X + \epsilon$
 Where $\beta_1$ and $\beta_2$ are dummies that identify migrants and disable persons and $X$ is a set of Social characteristics and labor market controls.
 
 The result table **.txt OLS estimation** includes three separate models that are differentiated by the controls each model considers.
+
+## Results
+
+The results are divided into three main outputs: descriptive tables, graphs, and Spatial graphs, and Regression analysis that describe the labor market outcomes of vulnerable populations in Colombia. 
+
+
+**Descriptive stadistics:**			
+
+![image](https://user-images.githubusercontent.com/68482485/209865819-81f4b1fd-9099-4a54-8bf2-b37fda7f32f6.png)
+
+**Main differences bewteen migrants and natives (t-test):**		
+
+![image](https://user-images.githubusercontent.com/68482485/209866012-dd0eb9c6-a8f9-4f2a-8dfc-0ba9f5b6b8f4.png)
+
+**Main differences bewteen disabled people and natives (t-test):**		
+
+![image](https://user-images.githubusercontent.com/68482485/209866168-c6d4c089-4193-4e4d-86b1-85ba6bed82ba.png)
+
+
+
 
 ***********
 Data can be dowload from DANE webpage in the following [(link)](https://microdatos.dane.gov.co/index.php/catalog/771/get-microdata).
