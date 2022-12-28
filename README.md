@@ -4,8 +4,8 @@
 
 **Codesample - Labor market in Colombia**
 
-Date: December 19, 2022
-Last modified: December 28, 2022
+- Date: December 19, 2022
+- Last modified: December 28, 2022
 
 ## Project description
 
