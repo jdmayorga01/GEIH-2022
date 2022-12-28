@@ -17,7 +17,7 @@
 		*						3. Final data set
 		
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
