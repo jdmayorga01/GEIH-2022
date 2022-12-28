@@ -15,7 +15,7 @@
 		* OUTLINE:				Preparation of spatial data
 		
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
