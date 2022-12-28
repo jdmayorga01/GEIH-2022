@@ -51,7 +51,7 @@ The result table **.txt OLS estimation** includes three separate models that are
 The results are divided into three main outputs: descriptive tables, graphs, and Spatial graphs, and Regression analysis that describe the labor market outcomes of vulnerable populations in Colombia. 
 
 
-**Descriptive stadistics:**			
+### Descriptive stadistics 
 
 ![image](https://user-images.githubusercontent.com/68482485/209865819-81f4b1fd-9099-4a54-8bf2-b37fda7f32f6.png)
 
@@ -63,6 +63,57 @@ The results are divided into three main outputs: descriptive tables, graphs, and
 
 ![image](https://user-images.githubusercontent.com/68482485/209866168-c6d4c089-4193-4e4d-86b1-85ba6bed82ba.png)
 
+
+### Spatial graphs 
+![Populations_map](https://user-images.githubusercontent.com/68482485/209867062-9e71bc1b-66c3-4204-bdad-2790f38789fc.png)
+
+
+### Regression analysis
+
+**OLS estimation - Labor income**
+
+|                      |      Model A                  |      Model B                  |      Model C                  |
+| -------------------- | :---------------------------: | :---------------------------: | :---------------------------: |
+| Migrant              |       -0.050<sup>\*\*\*</sup> |       -0.028<sup>\*\*\*</sup> |       -0.012                  |
+|                      |     (-8.690)                  |     (-5.605)                  |     (-0.475)                  |
+| Disable person       |       -0.086<sup>\*\*\*</sup> |       -0.058<sup>\*\*\*</sup> |       -0.066<sup>\*</sup>     |
+|                      |    (-14.845)                  |    (-11.566)                  |     (-2.567)                  |
+| Male                 |                               |        0.178<sup>\*\*\*</sup> |        0.160<sup>\*\*\*</sup> |
+|                      |                               |     (34.385)                  |      (6.146)                  |
+| Age (years)          |                               |        0.021<sup>\*\*\*</sup> |        0.019                  |
+|                      |                               |      (3.685)                  |      (0.641)                  |
+| Primary              |                               |        0.000                  |        0.000                  |
+|                      |                               |          (.)                  |          (.)                  |
+| Secondary            |                               |        0.174<sup>\*\*\*</sup> |        0.167<sup>\*\*\*</sup> |
+|                      |                               |     (23.302)                  |      (4.650)                  |
+| Tertiary             |                               |        0.553<sup>\*\*\*</sup> |        0.572<sup>\*\*\*</sup> |
+|                      |                               |     (72.767)                  |     (14.429)                  |
+| No education         |                               |       -0.058<sup>\*\*\*</sup> |       -0.048                  |
+|                      |                               |    (-11.018)                  |     (-1.758)                  |
+| Single               |                               |        0.000                  |        0.000                  |
+|                      |                               |          (.)                  |          (.)                  |
+| Has a relationship   |                               |        0.069<sup>\*\*\*</sup> |        0.092<sup>\*\*\*</sup> |
+|                      |                               |     (13.414)                  |      (3.588)                  |
+| Other                |                               |        0.000                  |        0.000                  |
+|                      |                               |          (.)                  |          (.)                  |
+| Head                 |                               |        0.078<sup>\*\*\*</sup> |        0.108<sup>\*\*\*</sup> |
+|                      |                               |     (14.835)                  |      (4.079)                  |
+| Rural                |                               |        0.000                  |        0.000                  |
+|                      |                               |          (.)                  |          (.)                  |
+| Urban                |                               |        0.071<sup>\*\*\*</sup> |        0.145<sup>\*\*\*</sup> |
+|                      |                               |     (13.432)                  |      (5.099)                  |
+| Self-employed        |                               |                               |       -0.141<sup>\*\*\*</sup> |
+|                      |                               |                               |     (-4.880)                  |
+| Employer             |                               |                               |        0.111<sup>\*\*\*</sup> |
+|                      |                               |                               |      (3.917)                  |
+| Employment controls  |           No                  |           No                  |          Yes                  |
+| Social char. controls  |           No                  |          Yes                  |          Yes                  |
+| Observations         |        29582                  |        29582                  |          890                  |
+| *R*<sup>2</sup>      |        0.010                  |        0.261                  |        0.454                  |
+| F                    |        145.8                  |       1042.2                  |        60.73                  |
+
+Standardized beta coefficients; *t* statistics in parentheses<br>
+<sup>\*</sup> *p* < 0.05, <sup>\*\*</sup> *p* < 0.01, <sup>\*\*\*</sup> *p* < 0.001
 
 
 
