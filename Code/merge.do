@@ -17,7 +17,7 @@
 		*						3. Merge of the data set
 		*						4. Filter of relevant variables
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
