@@ -17,7 +17,14 @@ GEIH produces information at the national, urban-rural level and for the thirtee
 
 The purpose of studying the labor market of these specific populations is due to their vulnerability and the barriers they have to access formal and quality employment. In relation to the migrants, in the last few years, Colombia has hosted around 1.8 million migrants from Venezuela [(UNHCR, 2020)](https://www.unhcr.org/globaltrends#:~:text=During%202020%2C%20several%20crises,within%20and%20beyond%20countries'%20borders.). The magnitude of the migration influx has exerted a burden on the labor market and has created vulnerabilities in the migrant population (discrimination, xenophobia, etc.). On the other hand, disabled people in Colombia have different inclusion problems, specifically in terms of the labor market and education. Around 30% of the persons with a disability are permanently unable to work and if they work, they have lower chances of getting a job. Moreover, there is a significant educational gap between the population with and without a disabilities; an averge 10 p.p difference in all levels of education (primary, secondary and tertiary) [(INCI, 2022)](https://www.inci.gov.co/blog/la-discapacidad-en-colombia-segun-estadisticas-del-dane). 
 
- ## Code description 
+## Results
+
+The set of results are divided in two main outputs, descriptive tables and graphs that describe the labor market outcomes of vulnerable populations in Colombia. 
+
+
+
+
+## Code description 
  
 This code aims to process, clean, and analyze GEIH labor market information for vulnerable specific populations in October 2022. Specifically, this code is divided into two blocks, cleaning, and analysis. To run the code, please use the **master.do file**. If this is the **FIRST TIME running the code**, please change the path to where the **master.do** is saved, change the user global, and leave the preset settings (all locals equal to 1). STATA 17 is required as new functionalities of this version are used. The code should take around 5-6 minutes to run. 
 
