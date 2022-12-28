@@ -7,6 +7,8 @@
 - Date: December 19, 2022
 - Last modified: December 28, 2022
 
+***********
+
 ## Project description
 
 **The objective of this project is to analyze the labor market of specific vulnerable populations (migrants and disabled persons) using administrative data from the Colombian labor market survey *"La Gran Encuesta Integrada de Hogares"* (GEIH) in October 2022.** 
@@ -39,4 +41,4 @@ Where $\beta_1$ and $\beta_2$ are dummies that identify migrants and disable per
 The result table **.txt OLS estimation** includes three separate models that are differentiated by the controls each model considers.
 
 ***********
-Data can be dowload from DANE webpage.
+Data can be dowload from DANE webpage in the following [(link)](https://microdatos.dane.gov.co/index.php/catalog/771/get-microdata).
