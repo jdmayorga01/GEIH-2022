@@ -1,6 +1,6 @@
 ** ****************************************************************** **
 * 								CODE SAMPLE
-*					WORLD BANK RA POSITION APPLICATION  
+*							LABOR MARKET - COLOMBIA  
 *						JUAN DIEGO MAYORGA DURAN
 *
 *							SSC PACKAGES DO FILE
@@ -15,7 +15,7 @@
 		* OUTLINE:				1. List of relevant packages from SSC
 		
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
