@@ -16,7 +16,7 @@
 		*						2. Descriptive spatial maps
 		*						3. Regression analysis
 		
-		* PROJECT: 				Code Sample
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
