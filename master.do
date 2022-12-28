@@ -16,7 +16,7 @@
 		* OUTLINE:				1. Folder path globals
 		*						2. Run do files
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample - Colombian labor market 
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
