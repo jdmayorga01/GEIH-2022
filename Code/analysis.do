@@ -1,6 +1,6 @@
 ** ****************************************************************** **
 * 								CODE SAMPLE
-*					WORLD BANK RA POSITION APPLICATION  
+*							LABOR MARKET - COLOMBIA  
 *						JUAN DIEGO MAYORGA DURAN
 *
 *							ANALYSIS DO FILE
@@ -16,7 +16,7 @@
 		*						2. Descriptive spatial maps
 		*						3. Regression analysis
 		
-		* PROJECT: 				Code Sample - RA Application
+		* PROJECT: 				Code Sample
 		
 		
 		* AUTHOR:				Juan Diego Mayorga Duran (juand.mayorga@outlook.com)
